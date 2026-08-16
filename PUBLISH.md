@@ -17,7 +17,9 @@ npm publish --access public
 
 ## 2. GitHub topic
 
-在仓库 Settings 的 Topics 里添加：`dsh-plugin`。
+仓库已创建为公共仓库：https://github.com/qq12346/dsh-review
+
+已添加 topics：`dsh-plugin`、`deepseek-harness`、`dsh`、`typescript`。
 
 ## 3. awesome-dsh-plugin 收录 PR
 
@@ -43,9 +45,9 @@ DeepSeek Harness（DSH）的「会话复盘 + 经验沉淀」插件。定位是�
 - 工具：`review_session`、`search_lessons`
 - 数据目录：`.dsh-review/`（报告 + `lessons.json` + `lessons.md` + `index.json`）
 - 安装：`dsh plugin --profile <name> add dsh-review`
-- 仓库：https://github.com/<你的用户名>/dsh-review
+- 仓库：https://github.com/qq12346/dsh-review
 
 建议分类：Sessions & Messages（也可放 Workflow & Automation）
 ```
 
-PR 正文里的“仓库链接”和实际仓库地址以你推送到 GitHub 后的地址为准。
+PR 正文里的“仓库链接”已更新为实际地址。
