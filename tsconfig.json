@@ -4,6 +4,7 @@
     "moduleResolution": "NodeNext",
     "lib": ["ES2022"],
     "strict": true,
+    "skipLibCheck": true,
     "noUncheckedIndexedAccess": true,
     "declaration": true,
     "declarationDir": "lib/types",
@@ -14,5 +15,5 @@
     "types": ["node"]
   },
   "include": ["src"],
-  "exclude": ["src/client"]
+  "exclude": ["src/client", "**/*.test.ts"]
 }
